@@ -1,6 +1,8 @@
-$('.realm').onclick = changeColor;
+function goHere(){
+  var here = document.getElementById('button');
 
-function changeColor(){
-  document.body.style.color = 'black';
-  return false;
-};
+  if(here.length = 0){
+    alert('Hello!');
+    console.log('working!');
+  }
+}

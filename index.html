@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <title>GoT Quiz</title>
 
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 
-      <!-- Latest compiled and minified CSS -->
+
+    <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
@@ -15,12 +17,16 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
 <link href="css/reset.css" type="text/css" rel="stylesheet">
 <link href="css/index.css" type="text/css" rel="stylesheet">
 <script type="text/javascript" src="js/fromscratch.js"></script> <!--Useless script for now-->
 
   </head>
   <body>
+
     <nav class="navbar navbar-inverse bg primary">
       <div class="container-fluid">
         <div class="navbar-brand">
@@ -51,18 +57,18 @@
       <hr class="my-4">
       <div class="container-fluid">
         <div class="buttons">
-          <button type="button" class="btn btn-secondary">North</button>
-          <button type="button" class="btn btn-secondary">South</button>
-          <button type="button" class="btn btn-secondary">East</button>
-          <button type="button" class="btn btn-secondary">West</button>
+          <button type="button" class="btn btn-secondary">TV Shows</button>
+          <button type="button" class="btn btn-secondary">Movies</button>
+          <button type="button" class="btn btn-secondary">Books</button>
+          <button type="button" class="btn btn-secondary">Other</button>
         </div>
       </div>
     </div>
   </div>
   <div class="container-fluid">
     <div class="jumbotron">
-    <h1 class="display-3">GoT quizzes</h1>
-    <p class="lead">Choose your realm</p>
+    <h1 class="display-3">New!</h1>
+    <p class="lead">New short quizzes below!</p>
     <hr class="my-4">
     <div class="container-fluid">
       <div class="buttons">
@@ -92,11 +98,11 @@
   <div class="card-block">
     <h4 class="card-title"></h4>
     <div id="container">
-      <div id="title">
-        <h1>Which High Lord are you?</h1>
-      </div>
+        <header>Which High Lord are you?</header>
       <br />
-      <div id="quiz"></div>
+      <button  type ='' value='Click Me'id='button' onclick='goHere'>Start Here</button>
+      <div id="quiz"><span>HELLO!</span></div>
+
         <div class="button" id="next"><a href="#">Next</a></div>
         <div class="button" id="prev"><a href="#">Prev</a></div>
         <div class="button" id="start"><a href="#">Re-take Quiz!</a></div>
@@ -113,9 +119,7 @@
                 </div>
     </footer>
 
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
 
   </body>
 </html>
